@@ -24,7 +24,8 @@ public class Problema05 {
             for(int col = 0; col < estudiantes[fila].length; col++){
                 letra = estudiantes[fila][col].charAt(0);
                 if(letra == 'S' || letra == 'P' || letra == 'T'){
-                    acumuladora = String.format("%s",
+                    acumuladora = String.format("%s%s\n",
+                            acumuladora,
                             estudiantes[fila][col]);
                     
                 
