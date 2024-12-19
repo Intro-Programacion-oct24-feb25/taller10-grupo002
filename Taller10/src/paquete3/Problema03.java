@@ -26,7 +26,7 @@ public class Problema03 {
                     
             }
             sumaNotas[i] = suma; 
-            promedio[i] = sumaNotas[i]/4;
+            promedio[i] = sumaNotas[i]/3;
 
             if(promedio[i] >= 0 && promedio[i] <= 2.9){
                 promedioNotasCualitativas[i]= "Insuficiente";
